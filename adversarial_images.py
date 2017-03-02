@@ -32,6 +32,9 @@ print(accuracy.eval(feed_dict={x: mnist.test.images, y_: mnist.test.labels}))
 
 ###############################################################
 ######### NOW WE CREATE ADVERSARIAL IMAGES
+#### Note: When writing this code, I depended on many resources.
+####       Most of them coming from the repo:
+####       https://github.com/georgeliu1998/deep-learning/blob/master/adversarial_images/adversarial_images.ipynb
 ###############################################################
 
 # Import the necessary modules
